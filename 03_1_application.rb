@@ -42,3 +42,24 @@ route1.add_station(station4)
 route1.del_station(station4)
 route1.stations_list
 
+train1.speed_up
+puts train1.speed
+train1.speed_up
+train1.speed_up
+5.times{ train1.add_wagon }
+train1.speed_up
+train1.speed_up
+puts train1.speed
+train1.speed_down
+train1.speed_down
+train1.speed_down
+train1.speed_down
+puts train1.speed
+train1.speed_up
+puts train1.speed
+train1.stop
+puts train1.speed
+5.times{ train1.add_wagon }
+puts train1.wagons
+5.times{ train1.del_wagon }
+puts train1.wagons

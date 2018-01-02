@@ -14,12 +14,14 @@
 # ##   -Перемещаться между станциями, указанными в маршруте.
 # ##   -Показывать предыдущую станцию, текущую, следующую, на основе маршрута
 
+# next_s prev_s current_s
 
 class Train
 
   #attr_writer
   attr_reader :type, :station, :speed, :wagons
   #attr_accessor
+  #
 
 
   def initialize(speed = 0, wagons = 0, station , type)  ###
@@ -29,8 +31,12 @@ class Train
     @type = type
   end
 
-  def go
-    @speed = 100
+  def speed_up
+    @speed += 100 if @speed < 300
+  end
+
+  def speed_down
+    @speed -= 100 if @speed != 0
   end
 
   def stop
@@ -38,11 +44,19 @@ class Train
   end
 
   def add_wagon
-    @wagons = @wagons + 1
+    if @speed == 0
+      @wagons = @wagons + 1
+    else
+      puts "Нельзя прицепить вагон если поезд движется"
+    end
   end
   
   def del_wagon
-    @wagons = @wagons - 1
+    if @speed == 0
+      @wagons = @wagons - 1
+    else
+      puts "Нельзя отцепить вагон если поезд движется"
+    end
   end
 
 end
