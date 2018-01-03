@@ -11,11 +11,11 @@ station2 = RailwayStation.new('Симферополь')
 station3 = RailwayStation.new('Севастополь')
 station4 = RailwayStation.new('Керч')
 
-train1 = Train.new(0, 10, station1, 'pass')
-train2 = Train.new(0, 20, station1, 'gruz')
-train3 = Train.new(0, 15, station1, 'pass')
-train4 = Train.new(0, 11, station1, 'pass')
-train5 = Train.new(0, 13, station1, 'gruz')
+train1 = Train.new(0, 10, station1, 'pass', nil)
+train2 = Train.new(0, 20, station1, 'gruz', nil)
+train3 = Train.new(0, 15, station1, 'pass', nil)
+train4 = Train.new(0, 11, station1, 'pass', nil)
+train5 = Train.new(0, 13, station1, 'gruz', nil)
 
 station1.add_train(train1)
 station1.add_train(train2)
@@ -63,3 +63,27 @@ puts train1.speed
 puts train1.wagons
 5.times{ train1.del_wagon }
 puts train1.wagons
+train1.route = route1
+route1.add_station(station4)
+train1.route.stations_list
+
+p '++++++++'
+train1.current_station
+train1.next_station
+train1.prev_station
+p '++++++++'
+train1.go_to_next_station
+train1.next_station
+p '++++++++'
+train1.go_to_next_station
+train1.next_station
+p '++++++++'
+train1.go_to_next_station
+train1.next_station
+p '++++++++'
+train1.go_to_next_station
+train1.current_station
+
+train1.next_station
+train1.current_station
+
