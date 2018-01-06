@@ -1,32 +1,12 @@
-
-# Поезд:
-#   Имеет, тип, который указывается при создании:
-#   грузовой, пассажирский и количество вагонов.
-#   Поезд может делать следующие вещи:
-#  -набирать скорость
-#  -показывать текущую скорость
-#  -тормозить
-#  -показывать количество вагонов
-#  -прицеплять/отцеплять вагоны (по одному вагону за операцию,
-#   метод просто увеличивает или уменьшает количество вагонов).
-#   Прицепка/отцепка вагонов может осуществляться только если поезд не движется.
-#-Принимать маршрут следования
-#-Перемещаться между станциями, указанными в маршруте.
-#-Показывать предыдущую станцию, текущую, следующую, на основе маршрута
-
-# next_s prev_s current_s
-
 class Train
 
-  #attr_writer
-  attr_reader :type, :speed, :wagons
+  attr_reader :speed, :wagons
   attr_accessor :route, :station
 
-  def initialize(speed = 0, wagons = 0, station, type, route)
+  def initialize(speed = 0, wagons = 0, station = nil, route = nil)
     @speed = speed
     @wagons = wagons
     @station = station
-    @type = type
     @route = route
   end
 
@@ -51,10 +31,10 @@ class Train
   end
   
   def del_wagon
-    if @speed == 0
+    if @speed == 0 && @wagons > 0
       @wagons = @wagons - 1
     else
-      puts "Нельзя отцепить вагон если поезд движется"
+      puts "Нельзя отцепить вагон если поезд движется или нет вагонов"
     end
   end
 
@@ -91,6 +71,7 @@ class Train
   def find_station_index
     st =  @route.stations.find {|s| s == @station}
     @route.stations.index(st)
+
   end
 
 end

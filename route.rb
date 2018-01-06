@@ -1,9 +1,3 @@
-# Маршрут:
-#   -Имеет начальную и конечную станцию, а также список промежуточных станций
-#   -Может добавлять станцию в список
-#   -Может удалять станцию из списка
-#   -Может выводить список всех станций по-порядку от начальной до конечной
-
 class Route
 
   attr_reader :number, :stations
@@ -14,7 +8,6 @@ class Route
   end
 
   def add_station(station)
-    #@stations << station
     @stations.insert(-2, station)
   end
 
@@ -29,3 +22,4 @@ class Route
     end
   end
 end
+
