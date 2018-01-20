@@ -2,9 +2,17 @@ class Route
 
   attr_reader :number, :stations
 
-  def initialize(number, stations = [])
-    @stations = stations
+  def initialize(number)
+    @stations = []
     @number = number
+    validate!
+  end
+
+  def valid?
+    validate!
+  rescue => e
+    puts e.message
+    false
   end
 
   def add_station(station)
@@ -16,10 +24,16 @@ class Route
   end
 
   def stations_list
-    puts "================ маршрут ##{@number} ====================="
-    @stations.each do |station|
+    @stations.map do |station|
       puts "Станция: #{station.name}"
     end
   end
-end
 
+  private
+
+  def validate!
+    raise 'Номер не может быть меньше трех символов и больше 5-ти символов' if @number.size < 3 && @number.size > 5
+    raise 'Марщруту можно содержать только станции' if @stations.select { |station| station.class != RailwayStation }.size > 0
+    true
+  end
+end

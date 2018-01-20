@@ -1,13 +1,41 @@
 class Train
 
-  attr_reader :speed, :wagons
+  attr_reader :speed, :wagons, :number
   attr_accessor :route, :station
 
-  def initialize(speed = 0, wagons = 0, station = nil, route = nil)
-    @speed = speed
-    @wagons = wagons
-    @station = station
-    @route = route
+  include Developer
+
+  include InstanceCounter
+  @@number = 0
+  @@trains = []
+  def self.find(number)
+    tr = nil
+    @@trains.select{ |train| tr = train if train.number == number }
+    tr
+  end
+
+  def initialize
+    @speed = 0
+    @type = type
+    @wagons = []
+    @station = nil
+    @route = nil
+    @@instances = register_instance
+    @@number += 1
+    @number = @@number.to_s.rjust(3, '0')
+    @@trains << self
+    validate!
+  end
+
+  def valid?
+    validate!
+  rescue => e
+    puts e.message
+    false
+  end
+
+  def each_wagons (&block)
+    @wagons.each { |wagon| block.call(wagon) }
   end
 
   def speed_up
@@ -22,9 +50,9 @@ class Train
     @speed = 0
   end
 
-  def add_wagon
+  def add_wagon (wagon)
     if @speed == 0
-      @wagons = @wagons + 1
+      @wagons << wagon
     else
       puts "Нельзя прицепить вагон если поезд движется"
     end
@@ -32,7 +60,7 @@ class Train
   
   def del_wagon
     if @speed == 0 && @wagons > 0
-      @wagons = @wagons - 1
+      @wagons.delete(@wagons.last)
     else
       puts "Нельзя отцепить вагон если поезд движется или нет вагонов"
     end
@@ -68,10 +96,32 @@ class Train
 
   private
 
+  def type
+    ''
+  end
+
   def find_station_index
-    st =  @route.stations.find {|s| s == @station}
+    st =  @route.stations.find { |s| s == @station }
     @route.stations.index(st)
 
   end
 
+  def validate!
+    if @type != 'Пассажирский' && @type != 'Грузовой'
+      raise 'Тип поезда может быть только "Пассажирский" или "Грузовой"'
+    end
+    if @number.size != 3
+      raise 'Номер должен состоять из 3-х символов'
+    end
+    if @wagons.select { |wagon| wagon.class != Wagon }.size > 0
+      raise 'К поезду можно прицепить только вагоны'
+    end
+    true
+  end
 end
+# Релизовать проверку на формат номера поезда.
+# Допустимый формат: три буквы или цифры в любом порядке,
+# необязательный дефис (может быть, а может нет)
+# и еще 2 буквы или цифры после дефиса.
+
+

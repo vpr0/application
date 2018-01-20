@@ -1,10 +1,29 @@
 class RailwayStation
 
   attr_reader :name
+  @@stations = []
+  def self.all
+    @@stations.each do |station|
+      puts "Станция: #{station.name}"
+    end
+  end
 
-  def initialize(name, trains = [])
+  def initialize(name)
     @name = name
-    @trains = trains
+    @trains = []
+    @@stations << self
+    validate!
+  end
+
+  def each_trains (&block)
+    @trains.each { |train| block.call(train) }
+  end
+
+  def valid?
+    validate!
+  rescue => e
+    puts e.message
+    false
   end
 
   def trains
@@ -26,6 +45,16 @@ class RailwayStation
   end
 
   private
+
+  def validate!
+    if @name.size < 2 && @name.size > 20
+      raise 'Имя должно быть от 2 до 20 символов'
+    end
+    if @trains.select { |train| train.class != Train }.size > 0
+      raise 'Станция может содержать только поезда'
+    end
+    true
+  end
 
   def trains_passenger
     count = 0

@@ -1,18 +1,20 @@
+require_relative 'modules'
 require_relative 'train'
 require_relative 'station'
 require_relative 'route'
 require_relative 'passenger_train'
 require_relative 'cargo_train'
-
+require_relative 'wagon'
+tr1 = PassengerTrain.new
+st1 = RailwayStation.new('Востряково')
 stations = []
-stations << RailwayStation.new('Востряково')
+stations << st1
 stations << RailwayStation.new('Симферополь')
 stations << RailwayStation.new('Севастополь')
 stations << RailwayStation.new('Керч')
 trains = []
-routes = []
-
-
+st1.each_trains { |train| puts train.number }
+tr1.each_wagons { |wagon| puts wagon.type }
 def print_trains(trains)
   trains.each_with_index { |train, index| puts "#{index} - #{train.type}, Вагонов: #{train.wagons}" }
 end
@@ -32,7 +34,7 @@ while str != 0
   puts ' 7 - Список поездов на станции'
   str = gets.to_i
   case str
-  when 1
+    when 1
     puts 'Введите название станции'
     name = gets.chomp
     stations << RailwayStation.new(name)
@@ -88,7 +90,22 @@ while str != 0
       s = gets.to_i
       stations[s].trains
   else
-    puts  ''
+    puts  '!!!НЕВЕРНАЯ КОМАНДА!!!'
   end
-
 end
+
+#У класса RailwayStation написать метод,
+# который принимает блок и выполняет действия
+# из блока над каждым поездом (Train),
+# находящимся в данный момент на станции.
+#У класса Train написать метод,
+# который принимает блок и проходит
+# по всем вагонам поезда, передавая
+# каждый объект вагона в блок.
+ #   С учетом того, что еще предыдущее
+# задание было для многих сложным и не все
+# еще с ним управились, задание к этому уроку
+# будет не очень объемным и сложным.
+# Тут главное понять, как работают блоки.
+#
+
