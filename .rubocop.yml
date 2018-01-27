@@ -1,0 +1,33 @@
+Style/AsciiComments:
+  Exclude:
+    - 'lesson2/02_1.rb'
+    - 'train.rb'
+    - 'modules.rb'
+    - 'main.rb'
+
+# Offense count: 7
+Style/ClassVars:
+  Exclude:
+    - 'modules.rb'
+    - 'station.rb'
+    - 'train.rb'
+
+# Offense count: 10
+Style/Documentation:
+  Exclude:
+    - 'spec/**/*'
+    - 'test/**/*'
+    - 'cargo_train.rb'
+    - 'modules.rb'
+    - 'passenger_train.rb'
+    - 'route.rb'
+    - 'station.rb'
+    - 'train.rb'
+    - 'wagon.rb'
+
+
+# Offense count: 9
+# Configuration parameters: AllowHeredoc, AllowURI, URISchemes, IgnoreCopDirectives, IgnoredPatterns.
+# URISchemes: http, https
+Metrics/LineLength:
+  Max: 120

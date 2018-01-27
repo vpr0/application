@@ -1,5 +1,4 @@
 class RailwayStation
-
   attr_reader :name
   @@stations = []
   def self.all
@@ -15,13 +14,13 @@ class RailwayStation
     validate!
   end
 
-  def each_trains (&block)
-    @trains.each { |train| block.call(train) }
+  def each_trains
+    @trains.each { |train| yield(train) }
   end
 
   def valid?
     validate!
-  rescue => e
+  rescue StandardError => e
     puts e.message
     false
   end
@@ -32,7 +31,10 @@ class RailwayStation
 
   def trains_list
     @trains.each do |train|
-      puts "Тип: #{train.type}, Скорость: #{train.speed}, Кол-во вагонов: #{train.wagons}, Станция: #{train.station.name}"
+      puts "Тип: #{train.type},
+            Скорость: #{train.speed},
+            Кол-во вагонов: #{train.wagons},
+            Станция: #{train.station.name}"
     end
   end
 
@@ -47,12 +49,8 @@ class RailwayStation
   private
 
   def validate!
-    if @name.size < 2 && @name.size > 20
-      raise 'Имя должно быть от 2 до 20 символов'
-    end
-    if @trains.select { |train| train.class != Train }.size > 0
-      raise 'Станция может содержать только поезда'
-    end
+    raise 'Имя должно быть от 2 до 20 символов' if @name.size < 2 && @name.size > 20
+    raise 'Станция может содержать только поезда' unless @trains.reject { |train| train.class == Train }.empty?
     true
   end
 
@@ -67,5 +65,4 @@ class RailwayStation
     @trains.each { |train| count += 1 if train.is_a?(CargoTrain) }
     count
   end
-
 end

@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/modules.rb" line="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f90d38ee-b3f4-4a4c-b55b-ce7bd4565a36" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/passenger_train.rb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/train.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.rubocop.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lesson1/01_1.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lesson2/02_1.rb" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/01_1_основыруби.rb" afterPath="$PROJECT_DIR$/lesson1/01_1_основыруби.rb" />
-      <change beforePath="$PROJECT_DIR$/01_2.rb" afterPath="$PROJECT_DIR$/lesson1/01_2.rb" />
-      <change beforePath="$PROJECT_DIR$/01_3.rb" afterPath="$PROJECT_DIR$/lesson1/01_3.rb" />
-      <change beforePath="$PROJECT_DIR$/01_4.rb" afterPath="$PROJECT_DIR$/lesson1/01_4.rb" />
-      <change beforePath="$PROJECT_DIR$/02_1_ХешиМассивы.rb" afterPath="$PROJECT_DIR$/lesson2/02_1_ХешиМассивы.rb" />
-      <change beforePath="$PROJECT_DIR$/02_2.rb" afterPath="$PROJECT_DIR$/lesson2/02_2.rb" />
-      <change beforePath="$PROJECT_DIR$/02_3.rb" afterPath="$PROJECT_DIR$/lesson2/02_3.rb" />
-      <change beforePath="$PROJECT_DIR$/03_1_application.rb" afterPath="$PROJECT_DIR$/main.rb" />
-      <change beforePath="$PROJECT_DIR$/03_2_train.rb" afterPath="$PROJECT_DIR$/cargo_train.rb" />
-      <change beforePath="$PROJECT_DIR$/03_3_station.rb" afterPath="$PROJECT_DIR$/station.rb" />
-      <change beforePath="$PROJECT_DIR$/03_4_route.rb" afterPath="$PROJECT_DIR$/route.rb" />
+      <change beforePath="$PROJECT_DIR$/cargo_train.rb" afterPath="$PROJECT_DIR$/cargo_train.rb" />
+      <change beforePath="$PROJECT_DIR$/lesson1/01_1_основыруби.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lesson1/01_2.rb" afterPath="$PROJECT_DIR$/lesson1/01_2.rb" />
+      <change beforePath="$PROJECT_DIR$/lesson1/01_3.rb" afterPath="$PROJECT_DIR$/lesson1/01_3.rb" />
+      <change beforePath="$PROJECT_DIR$/lesson1/01_4.rb" afterPath="$PROJECT_DIR$/lesson1/01_4.rb" />
+      <change beforePath="$PROJECT_DIR$/lesson2/02_1_ХешиМассивы.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lesson2/02_2.rb" afterPath="$PROJECT_DIR$/lesson2/02_2.rb" />
+      <change beforePath="$PROJECT_DIR$/lesson2/02_3.rb" afterPath="$PROJECT_DIR$/lesson2/02_3.rb" />
+      <change beforePath="$PROJECT_DIR$/main.rb" afterPath="$PROJECT_DIR$/main.rb" />
+      <change beforePath="$PROJECT_DIR$/modules.rb" afterPath="$PROJECT_DIR$/modules.rb" />
+      <change beforePath="$PROJECT_DIR$/passenger_train.rb" afterPath="$PROJECT_DIR$/passenger_train.rb" />
+      <change beforePath="$PROJECT_DIR$/route.rb" afterPath="$PROJECT_DIR$/route.rb" />
+      <change beforePath="$PROJECT_DIR$/station.rb" afterPath="$PROJECT_DIR$/station.rb" />
+      <change beforePath="$PROJECT_DIR$/train.rb" afterPath="$PROJECT_DIR$/train.rb" />
+      <change beforePath="$PROJECT_DIR$/wagon.rb" afterPath="$PROJECT_DIR$/wagon.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,92 +40,70 @@
     <SUITE FILE_PATH="coverage/ruby@01_2.coverage" NAME="01_2 Coverage Results" MODIFIED="1513762875286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby" />
     <SUITE FILE_PATH="coverage/ruby@hello.coverage" NAME="hello Coverage Results" MODIFIED="1513506988763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby" />
     <SUITE FILE_PATH="coverage/ruby@02_2.coverage" NAME="02_2 Coverage Results" MODIFIED="1514309073582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby" />
+    <SUITE FILE_PATH="coverage/ruby@main.coverage" NAME="main Coverage Results" MODIFIED="1517072693471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby" />
     <SUITE FILE_PATH="coverage/ruby@01_4.coverage" NAME="01_4 Coverage Results" MODIFIED="1513762937691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby" />
     <SUITE FILE_PATH="coverage/ruby@02_1.coverage" NAME="02_1 Coverage Results" MODIFIED="1514025935755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby" />
     <SUITE FILE_PATH="coverage/ruby@3.coverage" NAME="3 Coverage Results" MODIFIED="1513510414342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby" />
     <SUITE FILE_PATH="coverage/ruby@01_1.coverage" NAME="01_1 Coverage Results" MODIFIED="1513762790656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby" />
     <SUITE FILE_PATH="coverage/ruby@h.coverage" NAME="h Coverage Results" MODIFIED="1513507959053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5593108">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.rb" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/main.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="490">
-                  <caret line="68" column="6" lean-forward="false" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="passenger_train.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/passenger_train.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="36">
-                  <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="cargo_train.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/cargo_train.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="108">
-                  <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="train.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/train.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="486">
-                  <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="route.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/route.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="station.rb" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/station.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="29" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="main.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/train.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="36" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modules.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="86" column="18" lean-forward="true" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>vagons</find>
       <find>train</find>
+      <find>routes</find>
+      <find>numbers</find>
     </findStrings>
     <replaceStrings>
       <replace>wagons</replace>
       <replace>train</replace>
+      <replace>numbers</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -141,17 +128,29 @@
         <option value="$PROJECT_DIR$/03_2_Поезд.rb" />
         <option value="$PROJECT_DIR$/03_3_Станция.rb" />
         <option value="$PROJECT_DIR$/03_3_station.rb" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/03_4_route.rb" />
         <option value="$PROJECT_DIR$/03_2_train.rb" />
         <option value="$PROJECT_DIR$/03_1_application.rb" />
         <option value="$PROJECT_DIR$/passanger_train.rb" />
-        <option value="$PROJECT_DIR$/route.rb" />
         <option value="$PROJECT_DIR$/cargo_train.rb" />
+        <option value="$PROJECT_DIR$/vagon.rb" />
+        <option value="$PROJECT_DIR$/Exceptions.rb" />
         <option value="$PROJECT_DIR$/passenger_train.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/wagon.rb" />
+        <option value="$PROJECT_DIR$/lesson2/02_3.rb" />
+        <option value="$PROJECT_DIR$/lesson1/01_4.rb" />
+        <option value="$PROJECT_DIR$/lesson1/01_3.rb" />
+        <option value="$PROJECT_DIR$/lesson2/02_1_ХешиМассивы.rb" />
+        <option value="$PROJECT_DIR$/.rubocop.yml2" />
+        <option value="$PROJECT_DIR$/.rubocop.yml" />
         <option value="$PROJECT_DIR$/station.rb" />
-        <option value="$PROJECT_DIR$/train.rb" />
+        <option value="$PROJECT_DIR$/route.rb" />
+        <option value="$PROJECT_DIR$/lesson2/02_1.rb" />
+        <option value="$PROJECT_DIR$/lesson2/02_2.rb" />
         <option value="$PROJECT_DIR$/main.rb" />
+        <option value="$PROJECT_DIR$/train.rb" />
+        <option value="$PROJECT_DIR$/modules.rb" />
       </list>
     </option>
   </component>
@@ -162,10 +161,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="82" />
-    <option name="width" value="1763" />
-    <option name="height" value="616" />
+    <option name="x" value="75" />
+    <option name="y" value="156" />
+    <option name="width" value="1757" />
+    <option name="height" value="620" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -183,7 +182,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,11 +190,21 @@
               <item name="ruby" type="b2602c69:ProjectViewProjectNode" />
               <item name="ruby" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ruby" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruby" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruby" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruby" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,7 +251,7 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/lesson1/01_4.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
     </configuration>
-    <configuration name="02_1_ХешиМассивы" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="02_1" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ruby" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
@@ -257,7 +266,7 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/lesson2/02_1_ХешиМассивы.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/lesson2/02_1.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
     </configuration>
     <configuration name="02_2" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
@@ -315,19 +324,18 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.01_4" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.02_1_ХешиМассивы" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.02_1" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.01_4" />
       <item index="2" class="java.lang.String" itemvalue="Ruby.02_2" />
       <item index="3" class="java.lang.String" itemvalue="Ruby.02_3" />
       <item index="4" class="java.lang.String" itemvalue="Ruby.main" />
     </list>
     <recent_temporary>
-      <list size="5">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Ruby.main" />
         <item index="1" class="java.lang.String" itemvalue="Ruby.02_3" />
         <item index="2" class="java.lang.String" itemvalue="Ruby.02_2" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.02_1_ХешиМассивы" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.01_4" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.01_4" />
       </list>
     </recent_temporary>
   </component>
@@ -368,12 +376,27 @@
       <workItem from="1514996252986" duration="1075000" />
       <workItem from="1515065417320" duration="3625000" />
       <workItem from="1515154229500" duration="6293000" />
-      <workItem from="1515189435449" duration="6918000" />
+      <workItem from="1515189435449" duration="7386000" />
+      <workItem from="1515247725078" duration="302000" />
+      <workItem from="1515363268457" duration="3243000" />
+      <workItem from="1515790966163" duration="2226000" />
+      <workItem from="1515831582982" duration="5381000" />
+      <workItem from="1515857670162" duration="6168000" />
+      <workItem from="1515940053357" duration="2508000" />
+      <workItem from="1516201667722" duration="1470000" />
+      <workItem from="1516217658828" duration="7514000" />
+      <workItem from="1516225458341" duration="3679000" />
+      <workItem from="1516442167989" duration="7837000" />
+      <workItem from="1516452372318" duration="19000" />
+      <workItem from="1516540662422" duration="600000" />
+      <workItem from="1516545662017" duration="3387000" />
+      <workItem from="1516554457150" duration="3857000" />
+      <workItem from="1517066251984" duration="5741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80917000" />
+    <option name="totallyTimeSpent" value="135317000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,47 +408,47 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="82" width="1857" height="1092" extended-state="6" />
+    <frame x="75" y="156" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16583748" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12906504" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17357656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12804878" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903865" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32723576" sideWeight="0.50193477" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46341464" sideWeight="0.49806523" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17378049" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32723576" sideWeight="0.49806523" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39939025" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4817073" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286004" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12906504" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12804878" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903865" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32723576" sideWeight="0.50193477" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4817073" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17378049" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1641791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46341464" sideWeight="0.49806523" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32723576" sideWeight="0.49806523" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17191818" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286004" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39939025" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,73 +459,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/lesson1/01_4.rb</url>
-          <line>14</line>
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="75" column="19" lean-forward="true" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/station.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="112" lean-forward="true" selection-start-line="22" selection-start-column="112" selection-end-line="22" selection-end-column="112" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/route.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/route.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/station.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -635,7 +596,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/02_1_ХешиМассивы.rb">
+    <entry file="file://$PROJECT_DIR$/lesson2/02_1.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -649,7 +610,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/01_1_основыруби.rb">
+    <entry file="file://$PROJECT_DIR$/lesson1/01_1.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
@@ -660,18 +621,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/02_1_ХешиМассивы.rb">
+    <entry file="file://$PROJECT_DIR$/lesson2/02_1.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/02_1_ХешиМассивы.rb">
+    <entry file="file://$PROJECT_DIR$/lesson2/02_1.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -682,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -690,7 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,25 +663,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/01_1_основыруби.rb">
+    <entry file="file://$PROJECT_DIR$/lesson1/01_1.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/01_1_основыруби.rb">
+    <entry file="file://$PROJECT_DIR$/lesson1/01_1.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/01_1_основыруби.rb">
+    <entry file="file://$PROJECT_DIR$/lesson1/01_1.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs22/string.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="938" column="7" lean-forward="true" selection-start-line="938" selection-start-column="7" selection-end-line="938" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exceptions.rb" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/02_3.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -732,9 +711,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson1/01_4.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -745,92 +723,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/01_3.rb">
+    <entry file="file://$PROJECT_DIR$/wagon.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/01_1_основыруби.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/02_2.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/02_1_ХешиМассивы.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/02_3.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/route.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+        <state relative-caret-position="234">
+          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/passenger_train.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cargo_train.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="54">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train.rb">
+    <entry file="file://$PROJECT_DIR$/lesson1/01_1.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson1/01_3.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.rubocop_todo.yml" />
+    <entry file="file://$PROJECT_DIR$/.rubocop.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.rubocop.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/station.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="378">
+          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/route.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/02_1.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/02_2.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="68" column="6" lean-forward="false" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
+        <state relative-caret-position="180">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="86" column="18" lean-forward="true" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="36" selection-end-column="5" />
           <folding />
         </state>
       </provider>

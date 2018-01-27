@@ -1,5 +1,4 @@
 class Wagon
-
   include Developer
   attr_reader :type
 
@@ -10,7 +9,7 @@ class Wagon
 
   def valid?
     validate!
-  rescue => e
+  rescue StandardError => e
     puts e.message
     false
   end
@@ -18,9 +17,7 @@ class Wagon
   private
 
   def validate!
-    if @type != 'Пассажирский' && @type != 'Грузовой'
-      raise 'Тип вагона может быть только "Пассажирский" или "Грузовой"'
-    end
+    raise 'Тип вагона может быть только "Пассажирский" или "Грузовой"' if @type != 'Пассажирский' && @type != 'Грузовой'
     true
   end
 end

@@ -1,5 +1,4 @@
 class Route
-
   attr_reader :number, :stations
 
   def initialize(number)
@@ -10,7 +9,7 @@ class Route
 
   def valid?
     validate!
-  rescue => e
+  rescue StandardError => e
     puts e.message
     false
   end
@@ -33,7 +32,9 @@ class Route
 
   def validate!
     raise 'Номер не может быть меньше трех символов и больше 5-ти символов' if @number.size < 3 && @number.size > 5
-    raise 'Марщруту можно содержать только станции' if @stations.select { |station| station.class != RailwayStation }.size > 0
+    raise 'Марщруту можно содержать только станции' unless @stations.reject do |station|
+      station.class == RailwayStation
+    end.empty?
     true
   end
 end
